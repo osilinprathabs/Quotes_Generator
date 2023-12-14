@@ -1,0 +1,126 @@
+body {
+   background: linear-gradient(256.47deg, #5E2AB3 2.64%, #161E6C 140.46%);
+   font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.container {
+      color: #FFF;
+  font-family: Poppins;
+  width: 773px;
+  height: 263px;
+  top: 153px;
+  left: 306px;
+  border-radius: 8px;
+  background: rgba(208, 82, 82, 1);
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  text-align: center;
+flex-direction: column;
+  }
+
+.home-container {
+  margin-bottom: 20px;
+}
+
+
+#tags-container {
+  margin-top: 30px;
+}
+
+#quote-container {
+  margin-top: 20px;
+}
+
+#bookmark-btn {
+
+  position: fixed;
+  bottom: 200px; 
+  right: 900px; 
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#bookmark-btn:hover {
+  background-color: #45a049;
+}
+#generate-btn
+{
+
+  position: fixed;
+  bottom: 200px; 
+  right: 400px; 
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+#generate-btn:hover
+{
+  background-color: #45a049;
+}
+
+
+.bookmarks-container {
+ position: absolute;
+  top: 23px;
+  left: 1240px;
+  font-family: "Poppins-Light",sans-serif;
+  font-weight: 300;
+  color: green;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+#bookmarks-list {
+  list-style: none;
+  padding: 0;
+}
+
+
+
+.bookmark-item {
+  border: 1px solid #ccc;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+ 
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove-btn {
+  background-color: #dc3545;
+  color: darkred;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
